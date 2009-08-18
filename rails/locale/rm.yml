@@ -1,0 +1,138 @@
+# Romansh translations for Ruby on Rails 
+# by 
+
+de:
+  date:
+    formats:
+      default: "%d.%m.%Y"
+      short: "%e. %b"
+      long: "%e. %B %Y"
+      only_day: "%e"
+
+    day_names: [dumengia, glindesdi, mardi, mesemna, gievgia, venderdi, sonda]
+    abbr_day_names: [du, gli, ma, me, gie, ve, so]
+    month_names: [~, schaner, favrer, mars, avrigl, matg, zercladur, fanadur, avust, settember, october, november, december]
+    abbr_month_names: [~, schan, favr, mars, avr, matg, zercl, fan, avust, sett, oct, nov, dec]
+    order: [ :day, :month, :year ]
+  
+  time:
+    formats:
+      default: "%A, %d. %B %Y, %H:%M Uhr"
+      short: "%d. %B, %H:%M Uhr"
+      long: "%A, %d. %B %Y, %H:%M Uhr"
+      time: "%H:%M"
+
+    am: "avantmezdi"
+    pm: "suentermezdi"
+      
+  datetime:
+    distance_in_words:
+      half_a_minute: 'ina mesa minuta'
+      less_than_x_seconds:
+        zero: 'main che ina secunda'
+        one: 'main che ina secunda'
+        other: 'main che {{count}} secundas'
+      x_seconds:
+        one: 'ina secunda'
+        other: '{{count}} secundas'
+      less_than_x_minutes:
+        zero: 'main che ina minuta'
+        one: 'main che ina minuta'
+        other: 'main che {{count}} minutas'
+      x_minutes:
+        one: '1 minuta'
+        other: '{{count}} minutas'
+      about_x_hours:
+        one: "circa in'ura"
+        other: 'circa {{count}} uras'
+      x_days:
+        one: 'in di'
+        other: '{{count}} dis'
+      about_x_months:
+        one: 'circa in mais'
+        other: 'circa {{count}} mais'
+      x_months:
+        one: 'in mais'
+        other: '{{count}} mais'
+      about_x_years:
+        one: 'circa in onn'
+        other: 'circa {{count}} onns'
+      over_x_years:
+        one: "dapli ch'in onn"
+        other: 'dapli che {{count}} onns'
+    prompts:
+      second: "secundas"
+      minute: "minutas"
+      hour: "uras"
+      day: "dis"
+      month: "mais"
+      year: "onns"
+
+  number:
+    format:
+      precision: 2
+      separator: '.'
+      delimiter: "'"
+    currency:
+      format:
+        unit: 'CHF'
+        precision: 2
+        format: '%n %u'
+    percentage:
+      format:
+        delimiter: ""
+    precision:
+      format:
+        delimiter: ""
+    human:
+      format:
+        delimiter: ""
+        precision: 1
+      storage_units:
+        # Storage units output formatting.
+        # %u is the storage unit, %n is the number (default: 2 MB)
+        format: "%n %u"
+        units:
+          byte:
+            one:   "byte"
+            other: "bytes"
+          kb: "KB"
+          mb: "MB"
+          gb: "GB"
+          tb: "TB"
+
+  support:
+    array:
+      words_connector: ", "
+      two_words_connector: " e "
+      last_word_connector: " e "
+
+  activerecord:
+    errors:
+      template:
+        header:
+          one:    "Buca pussaivel da memorisar quest {{model}}: 1 errur."
+          other:  "Buca pussaivel da memorisar quest {{model}}: {{count}} errurs."
+        body: "Fagei aschi bien e controllei ils suandonts champs:"
+
+      messages:
+        inclusion: "na è betg sin la gliesta"
+        exclusion: "statt betg a disposiziun"
+        invalid: "na è betg valid"
+        confirmation: "na correspunda betg cun il champ da conferma"
+        accepted: "sto vegnir acceptaus"
+        empty: "sto vegnir emplenius ora"
+        blank: "sto vegnir emplenius ora"
+        too_long: "ei memia liungs (buca dapli che {{count}} caracters)"
+        too_short: "ei memia cuort (buca pli pauc che {{count}} caracters)"
+        wrong_length: "ha la fallida (sto ver {{count}} caracters)"
+        taken: "ei gia occupà"
+        not_a_number: "ei buca in dumber"
+        greater_than: "sto esser pli grond che {{count}}"
+        greater_than_or_equal_to: "sto esser pli grond ni medem che {{count}}"
+        equal_to: "sto esser exact {{count}}"
+        less_than: "sto esser pli pign che {{count}}"
+        less_than_or_equal_to: "sto esser pli pign ni medem che {{count}}"
+        odd: "sto esser spèr"
+        even: "sto esser pèr"
+      models:
