@@ -1,13 +1,12 @@
 # Romansh translations for Ruby on Rails 
 # by Flurina Andriuet and Sebastian de Castelberg (rails-i18n@kpricorn.org)
 
-de:
+rm:
   date:
     formats:
       default: "%d.%m.%Y"
       short: "%e. %b"
       long: "%e. %B %Y"
-      only_day: "%e"
 
     day_names: [dumengia, glindesdi, mardi, mesemna, gievgia, venderdi, sonda]
     abbr_day_names: [du, gli, ma, me, gie, ve, so]
@@ -20,8 +19,6 @@ de:
       default: "%A, %d. %B %Y, %H:%M Uhr"
       short: "%d. %B, %H:%M Uhr"
       long: "%A, %d. %B %Y, %H:%M Uhr"
-      time: "%H:%M"
-
     am: "avantmezdi"
     pm: "suentermezdi"
       
@@ -29,14 +26,12 @@ de:
     distance_in_words:
       half_a_minute: "ina mesa minuta"
       less_than_x_seconds:
-        zero: "main ch’ina secunda"
         one: "main ch’ina secunda"
         other: "main che {{count}} secundas"
       x_seconds:
         one: "ina secunda"
         other: "{{count}} secundas"
       less_than_x_minutes:
-        zero: "main ch’ina minuta"
         one: "main ch’ina minuta"
         other: "main che {{count}} minutas"
       x_minutes:
@@ -75,9 +70,11 @@ de:
       delimiter: "'"
     currency:
       format:
-        unit: "CHF"
         precision: 2
-        format: "%n %u"
+        separator: "."
+        delimiter: "'"
+        unit: "CHF"
+        format: "%n %u"
     percentage:
       format:
         delimiter: ""
@@ -135,4 +132,3 @@ de:
         less_than_or_equal_to: "sto esser pli pitschen u medem sco {{count}}"
         odd: "sto esser spèr"
         even: "sto esser pèr"
-      models:
