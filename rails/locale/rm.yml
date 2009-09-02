@@ -1,5 +1,5 @@
 # Romansh translations for Ruby on Rails 
-# by 
+# by Flurina Andriuet and Sebastian de Castelberg (rails-i18n@kpricorn.org)
 
 de:
   date:
@@ -27,39 +27,39 @@ de:
       
   datetime:
     distance_in_words:
-      half_a_minute: 'ina mesa minuta'
+      half_a_minute: "ina mesa minuta"
       less_than_x_seconds:
-        zero: 'main che ina secunda'
-        one: 'main che ina secunda'
-        other: 'main che {{count}} secundas'
+        zero: "main ch’ina secunda"
+        one: "main ch’ina secunda"
+        other: "main che {{count}} secundas"
       x_seconds:
-        one: 'ina secunda'
-        other: '{{count}} secundas'
+        one: "ina secunda"
+        other: "{{count}} secundas"
       less_than_x_minutes:
-        zero: 'main che ina minuta'
-        one: 'main che ina minuta'
-        other: 'main che {{count}} minutas'
+        zero: "main ch’ina minuta"
+        one: "main ch’ina minuta"
+        other: "main che {{count}} minutas"
       x_minutes:
-        one: '1 minuta'
-        other: '{{count}} minutas'
+        one: "1 minuta"
+        other: "{{count}} minutas"
       about_x_hours:
         one: "circa in'ura"
-        other: 'circa {{count}} uras'
+        other: "circa {{count}} uras"
       x_days:
-        one: 'in di'
-        other: '{{count}} dis'
+        one: "in di"
+        other: "{{count}} dis"
       about_x_months:
-        one: 'circa in mais'
-        other: 'circa {{count}} mais'
+        one: "circa in mais"
+        other: "circa {{count}} mais"
       x_months:
-        one: 'in mais'
-        other: '{{count}} mais'
+        one: "in mais"
+        other: "{{count}} mais"
       about_x_years:
-        one: 'circa in onn'
-        other: 'circa {{count}} onns'
+        one: "circa in onn"
+        other: "circa {{count}} onns"
       over_x_years:
         one: "dapli ch'in onn"
-        other: 'dapli che {{count}} onns'
+        other: "dapli che {{count}} onns"
     prompts:
       second: "secundas"
       minute: "minutas"
@@ -71,13 +71,13 @@ de:
   number:
     format:
       precision: 2
-      separator: '.'
+      separator: "."
       delimiter: "'"
     currency:
       format:
-        unit: 'CHF'
+        unit: "CHF"
         precision: 2
-        format: '%n %u'
+        format: "%n %u"
     percentage:
       format:
         delimiter: ""
@@ -111,28 +111,28 @@ de:
     errors:
       template:
         header:
-          one:    "Buca pussaivel da memorisar quest {{model}}: 1 errur."
-          other:  "Buca pussaivel da memorisar quest {{model}}: {{count}} errurs."
-        body: "Fagei aschi bien e controllei ils suandonts champs:"
+          one:    "Betg pussaivel da memorisar quest {{model}}: 1 errur."
+          other:  "Betg pussaivel da memorisar quest {{model}}: {{count}} errurs."
+        body: "Faschai uschè bain e controllai ils suandants champs:"
 
       messages:
-        inclusion: "na è betg sin la gliesta"
-        exclusion: "statt betg a disposiziun"
-        invalid: "na è betg valid"
-        confirmation: "na correspunda betg cun il champ da conferma"
-        accepted: "sto vegnir acceptaus"
-        empty: "sto vegnir emplenius ora"
-        blank: "sto vegnir emplenius ora"
-        too_long: "ei memia liungs (buca dapli che {{count}} caracters)"
-        too_short: "ei memia cuort (buca pli pauc che {{count}} caracters)"
-        wrong_length: "ha la fallida (sto ver {{count}} caracters)"
-        taken: "ei gia occupà"
-        not_a_number: "ei buca in dumber"
+        inclusion: "n'è betg sin la glista"
+        exclusion: "na stat betg a disposiziun"
+        invalid: "n'è betg valid"
+        confirmation: "na correspunda betg al champ da conferma"
+        accepted: "sto vegnir acceptà"
+        empty: "sto vegnir emplenì ora"
+        blank: "sto vegnir emplenì ora"
+        too_long: "è memia lung (betg dapli che {{count}} caracters)"
+        too_short: "è memia curt (betg pli pauc che {{count}} caracters)"
+        wrong_length: "ha la fallida lunghezza (sto avair {{count}} caracters)"
+        taken: "è gia occupà"
+        not_a_number: "è betg in dumber"
         greater_than: "sto esser pli grond che {{count}}"
-        greater_than_or_equal_to: "sto esser pli grond ni medem che {{count}}"
+        greater_than_or_equal_to: "sto esser pli grond u medem sco {{count}}"
         equal_to: "sto esser exact {{count}}"
-        less_than: "sto esser pli pign che {{count}}"
-        less_than_or_equal_to: "sto esser pli pign ni medem che {{count}}"
+        less_than: "sto esser pli pitschen che {{count}}"
+        less_than_or_equal_to: "sto esser pli pitschen u medem sco {{count}}"
         odd: "sto esser spèr"
         even: "sto esser pèr"
       models:
